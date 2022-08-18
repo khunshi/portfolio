@@ -1,0 +1,19 @@
+.navbar {
+  padding: 0 .5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 3em;
+  border-bottom: 1px solid black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+}
+
+.navbar a:hover {
+  color: orange;
+}

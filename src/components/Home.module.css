@@ -1,0 +1,10 @@
+.section {
+  border-bottom: 1px solid black;
+}
+
+.aaa {
+  background-color: orange;
+  opacity: 80%;
+  height: 300px;
+  margin: 1em;
+}

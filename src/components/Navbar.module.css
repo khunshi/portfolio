@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.header h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.svgs { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgs svg {
+  margin: 8px
+}
