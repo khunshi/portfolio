@@ -10,10 +10,10 @@
 
 .navbar a {
   text-decoration: none;
-  color: black;
-  transition: 0.1s;
+  color: #171918;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
-  color: orange;
+  color: #70160E;
 }
