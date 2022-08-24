@@ -8,9 +8,11 @@
 .ul li {
   font-size: 1.7em;
   margin: 0 .3em;
+  cursor: pointer;
 }
 
 .button {
+  cursor: pointer;
   padding-bottom: 100px;
   display: flex;
   justify-content: center;

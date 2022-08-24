@@ -9,11 +9,20 @@ export default function Links() {
       </div>
       <div>
         <ul className={styles.ul}>
-          <li> <FaLinkedin/>
+          <li> 
+            <a href="https://www.linkedin.com/in/bruno-santos-60a4b123a" target="blank_"> 
+              <FaLinkedin />
+            </a>
           </li>
-          <li> <FaGithub />
+          <li> 
+            <a className={styles.a} href="https://github.com/khunshi" target="blank_">
+              <FaGithub />
+            </a>
           </li>
-          <li> <FaInstagram />
+          <li> 
+            <a href="https://www.instagram.com/brunokhunshi/" target="blank_">
+              <FaInstagram />
+            </a>
           </li>
         </ul>
       </div>
