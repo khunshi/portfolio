@@ -1,11 +1,14 @@
 import {FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 import styles from './Links.module.css'
+import pdf from '../cv/BrunoSantosCV.pdf'
 
 export default function Links() {
   return (
     <div>
       <div className={styles.button}> 
+        <a href={pdf}>
         <button> Download CV </button>
+        </a>
       </div>
       <div>
         <ul className={styles.ul}>
